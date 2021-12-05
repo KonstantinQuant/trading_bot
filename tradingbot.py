@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# Author: Konstantin Kuchenmeister
 import numpy as np
 from numpy import random
 import random
