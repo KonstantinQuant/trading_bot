@@ -1,10 +1,7 @@
 # Deep Q-learning Trading Bot
 Reinforcement learning trading bot that can buy, sell and hold stocks using deep Q-Learning
 
-![runs](https://user-images.githubusercontent.com/88515336/171457932-e464389c-118f-4b70-967e-6bae8074aea6.png)
-![run](https://user-images.githubusercontent.com/88515336/171457986-9a62df79-241a-4842-99b4-c4204c352377.png)
-
-## Modeling the trading problem
+## 1. Modeling the trading problem
 
 1. States $S_{t}$:
    - Number of shares owned at $t$
@@ -20,3 +17,8 @@ Reinforcement learning trading bot that can buy, sell and hold stocks using deep
 3. Environment
    - Provides states $S_{t}$ and $S_{t+1}$
    - Provide daily return of bot as reward
+
+
+![runs](https://user-images.githubusercontent.com/88515336/171457932-e464389c-118f-4b70-967e-6bae8074aea6.png)
+![run](https://user-images.githubusercontent.com/88515336/171457986-9a62df79-241a-4842-99b4-c4204c352377.png)
+
